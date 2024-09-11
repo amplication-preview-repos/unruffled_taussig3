@@ -3,6 +3,10 @@ import { RolePermissionModule } from "./rolePermission/rolePermission.module";
 import { RoleModule } from "./role/role.module";
 import { PermissionModule } from "./permission/permission.module";
 import { UserModule } from "./user/user.module";
+import { PermissionManagementModule } from "./permissionmanagement/permissionmanagement.module";
+import { RoleManagementModule } from "./rolemanagement/rolemanagement.module";
+import { RolePermissionManagementModule } from "./rolepermissionmanagement/rolepermissionmanagement.module";
+import { UserManagementModule } from "./usermanagement/usermanagement.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -19,6 +23,10 @@ import { ApolloDriver, ApolloDriverConfig } from "@nestjs/apollo";
     RoleModule,
     PermissionModule,
     UserModule,
+    PermissionManagementModule,
+    RoleManagementModule,
+    RolePermissionManagementModule,
+    UserManagementModule,
     HealthModule,
     PrismaModule,
     SecretsManagerModule,
